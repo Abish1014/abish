@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="portfolio.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container col-12">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container" >
+            <a class="navbar-brand" href="#" style="color: white;"> <span class="abish">Abish</span> Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler"><i class="fa-solid fa-bars fa-shake fa-xl" style="color: #63E6BE;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-2">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-3">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-5">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ </div>
+ <section class="sectionA">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-12 order-1 pt-5">
+                <div class="myself" id="section-1">
+                    <p>Hello there, Welcome to my site.</p>
+                    <h1 class="display-5">H<span>i,</span></h1><br>
+                    <h1 class="display-5">I'm <span>ABISH</span></h1><br>
+                    <h1 class="display-5"><span class="typing"></span></h1>
+                    <script>
+                        $(document).ready(function () {
+                            let typed = new Typed('.typing', {
+                                strings: ['UI / UX designer', 'Web Developer'],
+                                typeSpeed: 100,
+                                backSpeed: 60,
+                                loop: true,
+                            });
+                        });
+                    </script>
+                </div><br>
+                <div class="myself-content">
+                    <p class="itsme">I am a Product Designer based in Tamilnadu, India. A newbie in this field who delivers the best<span> UX/UI designs</span> for software products. My design journey is primarily focused on reducing the learning curve for end-users and making them more visually pleasing at the same time.</p>
+                    <button class="cv"><a id="download-btn" href="Abish Resume.pdf" onclick="downloadResume()" target='_blank'>Download CV</a></button> <br><br> 
+                </div>
+                <div class="social-icons">
+                  <ul>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-github fa-shake fa-2xl" style="color: #000000;"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/abish-c-8946082a3" target="_blank"><i class="fa-brands fa-linkedin fa-shake fa-2xl" style="color: #2b5eb6;"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook fa-shake fa-2xl" style="color: #005eff;"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram fa-shake fa-2xl" style="color: #ff00bb;"></i></a></li>
+                </ul>
+                
+              </div>
+              
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 py-lg-0 py-3 order-sm-1">
+                <div class="box-fluid" style="box-shadow: 0 0 100px rgb(128, 43, 255);"></div>
+            </div>
+        </div>
+      </section>
+
+      <!-----------About section------------------->
+ <section class="sectionB" id="section-2">
+    <div class="contaner">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 py-lg-0 py-3 order-sm-1">
+                <div class="card">
+                </div>    
+            </div>
+            <div class="col-lg-8 col-md-8 col-12 order-1 pt-5">
+                <div class="abtcontent">
+                    <h3 class="abt1"> About <span>Me</span></h3><br>
+                    <h2 class="abt2">ABISH</h2>
+                    <h2 style="color: white;"><span>UI / UX</span> Designer</h2>
+                    <p class="p1">Hello! I'm a passionate UI UX designer with a strong background in front-end technologies. I specialize in creating dynamic and responsive websites using HTML, CSS, and JavaScript.</p><br>
+                    <p class="p2"> Although I am a fresher in this field, I have gained valuable skills through coursework and personal projects. I have a strong
+                      foundation in HTML, CSS and have completed projects that showcase my dedication to clean and
+                      efficient code.</p> <br>
+                      <p class="p3">Skills: HTML5, CSS3, JavaScript, Figma , Adobe photoshop , Adobe Illustartor</p>
+                      <p class="p4">Let's connect and discuss how I can contribute to your next project! <br>
+                <br>
+                        Contact me at: <span>abish.ga3.1014</span>@gmail.com</p>
+                  </div>
+        </div>
+    </div>
+ <!---------------Skills Section--------------------------->
+ <section class="mh-skills" id="section-3">
+    <div class="container">
+      <div class="row">
+        <h2 style="margin-left: 40%; color: white; ">My <span>Skills</span></h2>
+        <br>
+        <div class="col-lg-6 col-md-6 col-12 sm-p-0 py-lg-0 py-3 order-sm-1">
+         <div class="mh-skills-inner">
+            <h3 class="tech"><span>Technical</span> Skills</h3><br>
+            <div class="each-skills">
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">HTML/CSS</div>
+                    <div class="percentage-num">86%</div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width:86%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Java Script</div>
+                    <div class="percentage-num">86%</div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width:86%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Bootstrap</div>
+                    <div class="percentage-num">86%</div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width:86%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Adobe Photoshop</div>
+                    <div class="percentage-num">90%</div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width:90%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">Adobe Illustrator</div>
+                    <div class="percentage-num">90%</div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width:90%;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="candidatos">
+                <div class="parcial">
+                  <div class="info">
+                    <div class="nome">J Query</div>
+                    <div class="percentage-num">95%</div>
+                  </div>
+                  <div class="progressBar">
+                    <div class="percentagem" style="width:95%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12  py-3 order-sm-2">
+          <div class="skill-content">
+            <p style="letter-spacing: 1px; padding: 35px; align-items: center;">As a <span>UI/UX designer</span>, I bring a keen understanding of user-centered design principles to create visually stunning and intuitively functional interfaces. Proficient in industry-standard tools such as Adobe XD, Figma, I seamlessly translate user research insights into compelling wireframes and interactive prototypes. My design approach involves meticulous attention to detail in color theory, typography, and iconography, ensuring a cohesive and delightful user experience. With a focus on responsive design and accessibility, I craft interfaces that adapt seamlessly across devices and cater to diverse user needs.</p>
+          </div>
+       </div>
+       </div>
+      </div>
+    </div>
+  </section><br>
+  <!----------------Projects section---------------------->
+  <section id="portfolio">
+    <div class="msin-text">
+       <h6 class="pro-head" style="color: white;">WHAT I WILL DO FOR YOU</span>
+       <h2 class="pro-head"> <span>My</span> Projects</h2>
+    </div>
+    <div class="container">
+    <div class="filter-buttons">
+       <button class="btn">All</button>
+    </div><br>
+    <div class="portfolio-gallary">
+       <div class="port-box">
+           <div class="port-image">
+               <img src="freelance.png" alt="">
+           </div>
+           <div class="port-content">
+               <h3>Cloud'9 Bakers</h3>
+               <p>Cloud'9 Bakers Web Landing Page is a visually captivating online showcase designed to represent the fictional bakery's brand using HTML, CSS, JS, Bootstrap, and jQuery. The landing page features an enticing header with a logo and navigation menu, a hero section with an attractive banner and concise tagline, and informative sections such as About Us, Products, and Contact. Utilizing Bootstrap for responsiveness and jQuery for interactive elements, the design includes special offers, customer testimonials, and a contact form.</p>
+               <a href="#"><i class="fa-regular fa-eye"></i></a>
+           </div>
+         </div>
+         <div class="port-box">
+           <div class="port-image">
+               <img src="Digital clock.jpg" alt="">
+           </div>
+           <div class="port-content">
+               <h3>Digital clock</h3>
+               <p> This project involves creating a sleek and user-friendly digital clock using HTML, CSS, and JavaScript. The clock will display real-time hours, minutes, and seconds with optional AM/PM indication. The design focuses on simplicity and responsiveness, ensuring a modern aesthetic and easy readability. Implemented with dynamic updating using JavaScript, the digital clock provides a practical and visually appealing solution for users to keep track of time on a webpage.</p>
+               <a href="#"><i class="fa-regular fa-eye"></i></a>
+           </div>
+         </div>
+         <div class="port-box">
+           <div class="port-image">
+               <img src="port1sm.jpg" alt="">
+           </div>
+           <div class="port-content">
+               <h3>Portfolio</h3>
+               <p>Create a dynamic and visually appealing personal portfolio website utilizing HTML, CSS, JavaScript, Bootstrap, and jQuery. The primary goal of this project is to showcase my skills, projects, and professional background in an interactive and engaging format. The portfolio will serve as an online representation of my work and personality, enabling visitors to learn more about my expertise and accomplishments.</p>
+               <a href="#"><i class="fa-regular fa-eye"></i></a>
+           </div>
+         </div>
+         <!---<div class="port-box">
+           <div class="port-image">
+               <img src="Cloud9 logo.jpg" alt="">
+           </div>
+           <div class="port-content">
+               <h3>Graphic Designer</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint asperiores earum dolor alias eaque eum expedita labore adipisci corporis tempora?</p>
+               <a href="#"><i class="fa-regular fa-eye"></i></a>
+           </div>-->
+         </div>
+       </div>
+     </div>
+  </section><br><br>
+<!------------------Contact section----------------->
+  <section class="sectionC">
+    <h1 class="contact-head" id="section-5">Contact <span>me</span> </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 order-1 sm-p-0 pt-5">
+               <h4 style="color: white;">Get in touch</h4>
+               <h6 class="touch">Feel free to reach out—I'm enthusiastic about delving into fresh projects, discovering innovative ideas, and engaging in exciting collaborations. If you have any questions or inquiries, don't hesitate to send me an email. I'm eager to connect with you and arrange a meeting to explore and discuss your visions!</h6>
+               <div class="info-container">
+                <i class="bi bi-person-bounding-box" style="font-weight: bold;"> Name</i>
+                <p class="info-details">Abish C</p>
+                 
+                <i class="bi bi-geo-alt" style="font-weight: bold;"> Address</i>
+                <p class="info-details">S/o Chandra sekaran, <br> Nelveli , <br> Marthandam <br> KanyaKumari Dist <br>Tamilnadu</p>
+            
+                <i class="fa-regular fa-envelope fa-shake"></i>
+                <p class="info-details">abish.ga3.1014@gmail.com</p>
+            
+                <h5 class="info-head">Mobile</h5>
+                <p class="info-details">9488791742 , 8489791742</p>
+            
+                <h5 class="info-head">Language Known</h5>
+                <ul>
+                  <li style="color: white;" >Tamil ,English , Malayalam</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 order-2 pt-5">
+              <p class="con" style="color: white;">Feel free to reach out using the form below or through other channels.</p>
+
+              <form id="contactForm" onsubmit="submitForm(event)">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required>
+
+             <label for="subject">Subject:</label>
+             <input type="text" id="subject" name="subject" required>
+
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" rows="4" required></textarea>
+
+             <button type="submit">Send Message</button><br>
+             <i class="bi bi-envelope-heart-fill"></i>
+            </form>
+            <p class="con">Or connect with me on <a href="www.linkedin.com/in/abish-c-8946082a3" target="_blank">LinkedIn</a>.</p>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+</div>
+<script src='https://kit.fontawesome.com/3b57a2a2a7.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="demo.js"></script>
+<script src="style.js"></script>
+</body>
+</html>
